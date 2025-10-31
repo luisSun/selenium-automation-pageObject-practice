@@ -11,7 +11,6 @@ public class ProductsTest extends BaseTest {
     public void testProductIsDisplayed(){
         ProductPage productsPage = loginPage.loginIntoApp("standard_user", "secret_sauce");
         Assert.assertTrue(productsPage.isProductHeaderDisplayed()," \n Product Header is not Displayed \n");
-
     }
 
 }
